@@ -1,8 +1,8 @@
-export GITACCOUNT=
+export GITACCOUNT=guoyingc
 
 export MYCLUSTER=
 export KUBECONFIG=
 
 export NAMESPACE=
-export EMAIL=
+export EMAIL=guoyingc@cn.ibm.com
 export INGRESS=
