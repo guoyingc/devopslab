@@ -1,0 +1,9 @@
+apiVersion: serving.knative.dev/v1
+kind: Route
+metadata:
+  name: hello-internal
+  namespace: default
+spec:
+  traffic:
+    - revisionName: __REVISIONNAME__
+      percent: 100

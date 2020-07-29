@@ -1,0 +1,13 @@
+apiVersion: serving.knative.dev/v1
+kind: Configuration
+metadata:
+  name: hello-internal
+  namespace: default
+spec:
+  template:
+    metadata:
+      name: __REVISIONNAME__
+    spec:
+      serviceAccountName: pipeline-account
+      containers:
+      - image: __IMAGE__
