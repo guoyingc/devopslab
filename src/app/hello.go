@@ -7,7 +7,6 @@ import (
 	"os"
 )
 
-# hello world
 func say(word string) string {
 	title := "Hello world, this is"
 	return title + " " + word
